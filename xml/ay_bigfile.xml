@@ -4650,7 +4650,8 @@ create_package_descr -d /usr/local/CDs/LATEST/suse</screen>
         <entry>
          <para>
           Product URL. Can have the prefix <literal>cd:///</literal>,
-          <literal>http://</literal>, <literal>ftp://</literal>,...
+          <literal>http://</literal>, <literal>ftp://</literal>,.... This
+          entry is mandatory.
          </para>
         </entry>
        </row>
@@ -4688,7 +4689,7 @@ create_package_descr -d /usr/local/CDs/LATEST/suse</screen>
         </entry>
         <entry>
          <para>
-          Additional subpath. Optional.
+          Additional subpath.
          </para>
         </entry>
        </row>
