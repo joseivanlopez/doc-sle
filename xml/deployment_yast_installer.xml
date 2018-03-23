@@ -1049,8 +1049,10 @@ sle-live-patching 8c541494</screen>
        linkend="cha.snapper"/> for details on Snapper.
       </para>
       <para>
-       The hard disk must have a size of at least 16 GB to have automatic
-       snapshots enabled.
+       The hard disk must have a size of at least 16 GB to have
+       automatic snapshots enabled. If snapshots are enabled, the
+       installer will automatically create <literal>single</literal>
+       snapshots during and immediately after the installation.
       </para>
       <para>
        Being able to create system snapshots that enable rollbacks requires most
